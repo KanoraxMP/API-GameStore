@@ -1,21 +1,25 @@
 {
   "name": "api-tester",
   "version": "1.0.0",
+  "description": "Express API with MySQL and Cloudinary",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "multer": "^2.0.2",
-    "mysql2": "^3.15.1",
-    "sharp": "^0.34.4"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7",
+    "sharp": "^0.33.3"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
